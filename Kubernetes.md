@@ -104,7 +104,7 @@ Container orchestration tools (like Kubernetes, Docker Swarm, Nomad) provide:
     - **Persistent storage per pod** (each pod gets its own PVC).
 - Used for: Databases (MySQL, Cassandra, Kafka, etc.).
 
-![K8 Components.jpg](attachment:11a9b550-9a45-465a-ac6b-a9fd76a549c2:K8_Components.jpg)
+![K8 Components.jpg](K8_Components.jpg)
 
 ## 5. Kubernetes Architecture
 

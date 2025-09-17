@@ -162,6 +162,7 @@ Each **Kubernetes node** (master or worker) runs 3 core processes:
     - Pod ↔ Pod within cluster.
     - Pod ↔ Service ↔ External traffic.
 
+## Summary:
 - **Master = Brain (control, scheduling, monitoring)**.
 - **Worker = Muscles (actual execution of pods)**.
 - Each node needs **Container Runtime, Kubelet, and Kube-Proxy** to function.
@@ -212,6 +213,7 @@ It runs **four core processes**:
 - Requires **high availability** through replication across multiple master nodes.
 - Functions as Kubernetes' **central database and memory**.
 
+## Summary:
 - **API Server → Front Door** (accepts commands).
 - **Scheduler → Decider** (places pods on nodes).
 - **Controller Manager → Maintainer** (ensures state consistency).
